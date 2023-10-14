@@ -23,5 +23,9 @@ php -S localhost:8080
 or on any port you want.
 
 ### Connect to Database.
-You need to open config.php file and configure database properties.
+First of all make copy of config.example.php
+```
+cp config.example.php config.php
+```
+after that open config.php and configure database properties.
 ## I hope u will like it!
