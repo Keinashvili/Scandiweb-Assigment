@@ -1,0 +1,30 @@
+{
+  "name": "vovakeinashvili/add_products",
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    },
+    "files": [
+      "config.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Vladimer Keinashvili",
+      "email": "vovakeinashvili@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false,
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}

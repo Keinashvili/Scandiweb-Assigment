@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-left: 2.7%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+a, button {
+    text-decoration: none;
+    font-size: 15px;
+    height: 1rem;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+    padding: 10px 10px;
+    background: #a0a5ad;
+}
+
+.buttons {
+    list-style: none;
+    display: flex;
+    margin-left: 70%;
+}
+
+button {
+    align-content: center;
+    border: none;
+    padding: 10px 10px 25px;
+    margin-top: -8.1px;
+    background: #971f28;
+}
+
+.lines {
+    width: 90.5%;
+    height: 1px;
+    border: 0 none;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: dimgrey;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    height: 78px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.container {
+    width: 1300px;
+    margin: auto 0 auto 50px;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.product-content {
+    padding: 48px 8px 32px;
+    text-align: center;
+}
+
+.product {
+    height: 248px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 32px;
+}
+
+.delete-checkbox {
+    margin: 16px 0 0 16px;
+
+}
+
+.product-sku, .product-price, .product-dimensions {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.product-price, .product-dimensions {
+    font-size: 18px;
+}
+
+
+/* Media Queries */
+@media (max-width: 562px) {
+    .wrapper {
+        margin-left: 32px;
+    }
+
+    .blank {
+        display: none;
+    }
+
+    .head {
+        align-items: center;
+    }
+
+    a {
+        margin-left: 16px;
+    }
+
+    #delete-product-btn {
+        padding: 16px 8px 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .items {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width: 1336px) {
+    .items {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
