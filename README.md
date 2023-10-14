@@ -3,10 +3,6 @@
 This repo contains scandiweb test assigment.
 
 P.S The javascript part is mostly googled, but the idea is mine.
-
-http://167.172.183.228/ This is a link to the hosted website. I tested the following link on other networks, devices and it works. 
-HTML and CSS aren't perfect but I to my mind it isn't that important. 
-
 ## In order to run the project locally 
 Follow these steps
 ### Go to directory and run composer install
